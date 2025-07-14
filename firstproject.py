@@ -41,4 +41,3 @@ df = pd.get_dummies(df, columns=['brand_name'], prefix='brand')
 
 print(df)
 print(df.head())
-print(df.tail())
